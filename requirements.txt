@@ -1,0 +1,18 @@
+# Основные зависимости
+aiogram==3.26.0
+SQLAlchemy==2.0.38
+asyncpg==0.30.0
+alembic==1.14.1
+pydantic-settings==2.8.1
+
+# Удаление фона (фиксированные версии — критично для воспроизводимой сборки)
+rembg==2.0.59
+Pillow==10.4.0
+onnxruntime==1.19.2
+
+# Утилиты
+aiofiles==24.1.0
+python-dotenv==1.0.1
+
+# Ускорение asyncio (не работает на Windows!)
+uvloop==0.22.1
